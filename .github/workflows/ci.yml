@@ -20,3 +20,6 @@ jobs:
 
       - name: Print Go
         run: print(1.23.0)
+
+      - name: Success
+        run: (exit 0)

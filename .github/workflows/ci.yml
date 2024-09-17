@@ -19,7 +19,7 @@ jobs:
           go-version: "1.23.0"
 
       - name: Print Go
-        run: print("1.23.0")
+        run: print ("1.23.0")
 
       - name: Success
         run: (exit 0)
